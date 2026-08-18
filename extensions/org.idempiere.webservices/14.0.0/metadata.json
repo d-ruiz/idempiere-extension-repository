@@ -25,8 +25,13 @@
     {
       "symbolicName": "org.idempiere.webservices",
       "downloadUrl": "https://github.com/idempiere/idempiere-soap-webservices/releases/download/v14/org.idempiere.webservices-14.0.0.jar",
-      "sha256": "d7bcc06b3ba388582c6caf905866350c05e060f28fbd81fd32a2a9d489638fb5"
+      "sha256": "dbdadacd89588be69b5ce5ef907667d41793c5613589d3e2639a2447d3da9d62"
     }
   ],
-  "dependencies": []
+  "dependencies": [
+    {
+      "id": "org.idempiere.webservice.library",
+      "version": "14.0.0"
+    }
+  ]
 }
