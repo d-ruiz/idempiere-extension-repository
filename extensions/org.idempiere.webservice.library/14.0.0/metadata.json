@@ -19,7 +19,7 @@
     {
       "symbolicName": "org.idempiere.webservice.library",
       "downloadUrl": "https://github.com/idempiere/idempiere-soap-webservices/releases/download/v14/org.idempiere.webservice.library-14.0.0.jar",
-      "sha256": "4adaf49ebb528077ee00075cb51ef66677bfd59a09665aeff530d9e719fe0279"
+      "sha256": "03880e026082db8d06a629f046c49950f7ce883756227396b6b1741664e863bd"
     }
   ],
   "dependencies": []
