@@ -1,28 +1,26 @@
 {
-  "generatedAt": "2026-04-16T14:14:05.235192Z",
+  "generatedAt": "2026-09-09T10:31:50.704180Z",
   "extensions": [
     {
-      "id": "com.trekglobal.idempiere.rest.api",
-      "name": "iDempiere REST API",
-      "description": "Comprehensive REST API for iDempiere covering models, processes, windows, and workflows with JWT authentication.",
+      "id": "org.idempiere.webservice.library",
+      "name": "iDempiere Web Service Library",
+      "description": "Apache CXF runtime shared by the web service extensions. Spring stays in iDempiere core and is imported from there. Install it before any extension that declares it as a dependency.",
       "categories": [
-        "API",
-        "Integration"
+        "Library"
       ],
       "tags": [
-        "rest",
-        "api",
-        "jwt",
-        "json"
+        "cxf",
+        "soap",
+        "library"
       ],
-      "entityType": "IR",
+      "entityType": null,
       "versions": [
         {
-          "version": "1.0.0",
-          "metadataUrl": "https://github.com/idempiere/idempiere-extension-repository/blob/main/extensions/com.trekglobal.idempiere.rest.api/1.0.0/metadata.json"
+          "version": "14.0.0",
+          "metadataUrl": "https://github.com/idempiere/idempiere-extension-repository/blob/main/extensions/org.idempiere.webservice.library/14.0.0/metadata.json"
         }
       ],
-      "infoUrl": "https://github.com/idempiere/idempiere-extension-repository/blob/main/extensions/com.trekglobal.idempiere.rest.api/info.md"
+      "infoUrl": "https://github.com/idempiere/idempiere-extension-repository/blob/main/extensions/org.idempiere.webservice.library/info.md"
     },
     {
       "id": "org.idempiere.webservices",
@@ -46,6 +44,29 @@
         }
       ],
       "infoUrl": "https://github.com/idempiere/idempiere-extension-repository/blob/main/extensions/org.idempiere.webservices/info.md"
+    },
+    {
+      "id": "com.trekglobal.idempiere.rest.api",
+      "name": "iDempiere REST API",
+      "description": "Comprehensive REST API for iDempiere covering models, processes, windows, and workflows with JWT authentication.",
+      "categories": [
+        "API",
+        "Integration"
+      ],
+      "tags": [
+        "rest",
+        "api",
+        "jwt",
+        "json"
+      ],
+      "entityType": "IR",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "metadataUrl": "https://github.com/idempiere/idempiere-extension-repository/blob/main/extensions/com.trekglobal.idempiere.rest.api/1.0.0/metadata.json"
+        }
+      ],
+      "infoUrl": "https://github.com/idempiere/idempiere-extension-repository/blob/main/extensions/com.trekglobal.idempiere.rest.api/info.md"
     }
   ]
 }
