@@ -13,9 +13,10 @@
 
 ## ⚙️ Compatibility
 
-* **Core Module**
+* **iDempiere Version:** 14.0
 * **Java Version:** 17+
 * **Protocol:** SOAP 1.1/1.2 and REST (POST-based)
+* **Requires:** the `iDempiere Web Service Library` extension, which carries the Apache CXF and Spring runtime that iDempiere core no longer ships. Install it first - the extension manager does not install dependencies by itself, it refuses the install and names what is missing.
 
 ## 📦 Database Changes
 
