@@ -4,14 +4,13 @@
   "idempiereVersion": "14",
   "releaseDate": "2026-08-18",
   "name": "iDempiere Web Service Library",
-  "description": "Apache CXF and Spring runtime shared by the web service extensions. Install it before any extension that declares it as a dependency.",
+  "description": "Apache CXF runtime shared by the web service extensions. Spring stays in iDempiere core and is imported from there. Install it before any extension that declares it as a dependency.",
   "infoUrl": "https://github.com/idempiere/idempiere-extension-repository/blob/main/extensions/org.idempiere.webservice.library/info.md",
   "categories": [
     "Library"
   ],
   "tags": [
     "cxf",
-    "spring",
     "soap",
     "library"
   ],
